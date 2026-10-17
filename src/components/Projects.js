@@ -12,7 +12,7 @@ const projects = [
     description:
       "An online English learning platform with step-by-step live classes, a structured curriculum, class schedules, and student enrollment for real-world and academic English.",
     tags: ["React", "TanStack", "Vite", "Supabase"],
-    live: null,
+    live: "https://nafyadi.vercel.app",
     github: null,
   },
   {
