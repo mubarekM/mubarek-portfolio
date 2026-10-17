@@ -13,7 +13,7 @@ const projects = [
       "An online English learning platform with step-by-step live classes, a structured curriculum, class schedules, and student enrollment for real-world and academic English.",
     tags: ["React", "TanStack", "Vite", "Supabase"],
     live: "https://nafyadi.vercel.app",
-    github: null,
+    github: "https://github.com/mubarekM/nafyadi",
   },
   {
     title: "ChatGPT Clone",
