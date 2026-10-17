@@ -20,8 +20,8 @@ const projects = [
     description:
       "A full-stack AI chat app. Users talk to an assistant focused on programming and IT topics, and their conversation history is saved to and loaded from a database.",
     tags: ["React", "Node.js", "Express", "MySQL", "Gemini API"],
-    live: null,
-    github: null,
+    live: "https://mubarek-chatgpt-clone.vercel.app",
+    github: "https://github.com/mubarekM/mubarek-mustefa-ai",
   },
   {
     title: "Netflix Clone",
