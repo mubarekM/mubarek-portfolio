@@ -28,8 +28,8 @@ const projects = [
     description:
       "A fully responsive web app that recreates the Netflix interface, with dynamic movie rows, a promotional banner, and API-driven content.",
     tags: ["React", "Vite", "CSS", "REST API"],
-    live: null,
-    github: null,
+    live: "https://netflix-clone-ten-pi-10.vercel.app",
+    github: "https://github.com/mubarekM/netflix-clone",
   },
 ];
 
