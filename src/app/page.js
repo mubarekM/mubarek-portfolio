@@ -1,3 +1,4 @@
+import ContactSection from "@/components/ContactSection";
 import Image from "next/image";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
@@ -5,6 +6,7 @@ const navItems = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const iconClass = "h-6 w-6";
@@ -101,6 +103,7 @@ export default function Home() {
             </h3>
             <Projects />
           </section>
+        <ContactSection />
         </main>
       </div>
     </div>
