@@ -3,10 +3,26 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const title = "Mubarek Mustefa – AI-Powered Full-Stack Developer";
+const description =
+  "Portfolio of Mubarek Mustefa: full-stack web applications with React, Node.js, and integrated AI.";
+
 export const metadata = {
-  title: "Mubarek Mustefa – AI-Powered Full-Stack Developer",
-  description:
-    "Portfolio of Mubarek Mustefa: full-stack web applications with React, Node.js, and integrated AI.",
+  metadataBase: new URL("https://mubarek-codes.vercel.app"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "Mubarek Mustefa",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({ children }) {
