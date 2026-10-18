@@ -2,10 +2,10 @@ const projects = [
   {
     title: "AI-Powered Evangadi Forum",
     description:
-      "A community Q&A platform that pairs peer expertise with AI-generated draft answers, semantic vector search, and automated answer-quality evaluation for faster, more durable learning.",
-    tags: ["React", "Node.js", "MongoDB", "Vector Search", "Gemini API"],
-    live: null,
-    github: null,
+      "A community Q&A platform that pairs peer expertise with AI-generated draft answers, semantic vector search, and automated answer-quality evaluation for faster, more durable learning. In the live demo the PDF knowledge base is switched off; it runs locally.",
+    tags: ["React", "Node.js", "MySQL", "Vector Search", "Gemini API", "JWT"],
+    live: "https://evangadi-ai-forum-rose.vercel.app",
+    github: "https://github.com/mubarekM/evangadi-ai-forum",
   },
   {
     title: "English with Nafyad",
