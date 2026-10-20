@@ -42,6 +42,13 @@ export default function ContactSection() {
         Have a project or an opportunity in mind? Send me a message and I will
         reply by email.
       </p>
+      <p className="mb-6 text-sm">
+        Prefer email? Write to{" "}
+        <a href="mailto:mubarekalx@gmail.com" className="font-medium text-slate-200 hover:text-teal-300">
+          mubarekalx@gmail.com
+        </a>
+        .
+      </p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="hidden" aria-hidden="true">
           <label>
